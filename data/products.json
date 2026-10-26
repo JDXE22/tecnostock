@@ -1,9 +1,110 @@
-{
-  "id": 101,
-  "name": "Teclado mecánico",
-  "category": "Perifericos",
-  "price": 189900,
-  "stock": 8,
-  "description": "Teclado USB para uso diario",
-  "active": true
-}
+[
+  {
+    "id": 101,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 102,
+    "name": "Audifonos",
+    "category": "Perifericos",
+    "price": 189900,
+    "stock": 10,
+    "description": "Audifonos para uso diario",
+    "active": true
+  },
+  {
+    "id": 103,
+    "name": "Mouse Inalambrico",
+    "category": "Perifericos",
+    "price": 99900,
+    "stock": 8,
+    "description": "Mouse para uso diario",
+    "active": true
+  },
+  {
+    "id": 104,
+    "name": "Monitor 24' Pulgadas",
+    "category": "perifericos",
+    "price": 200900,
+    "stock": 2,
+    "description": "Monitor LED UHD",
+    "active": true
+  },
+  {
+    "id": 105,
+    "name": "Docker Station",
+    "category": "articulos-setup",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 106,
+    "name": "Torre gamer",
+    "category": "equipos",
+    "price": 120000,
+    "stock": 8,
+    "description": "Potente torre gamer para cualquier tipo de actividad",
+    "active": true
+  },
+  {
+    "id": 107,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 108,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 109,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 110,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 111,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 112,
+    "name": "Teclado mecánico",
+    "category": "perifericos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  }
+]
