@@ -1,6 +1,6 @@
 async function fetchProductsJson() {
   try {
-    const response = await fetch(".js/api.js");
+    const response = await fetch("data/products.js");
 
     if (!response.ok) throw new Error();
 
