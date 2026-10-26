@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-container">
+        <a class="logo" href="#" aria-label="Tecnostock store, inicio"
+          >Tecnostock<span>store.</span></a
+        >
+        <button
+          id="cart-toggle-btn"
+          class="cart-toggle-btn"
+          type="button"
+          aria-label="Abrir carrito de compras"
+          aria-expanded="false"
+        >
+          <span>Mi carrito</span>
+          <span id="cart-count" class="cart-badge" aria-live="polite">0</span>
+        </button>
+      </div>
+    </header>
+    <div class="container-main">
+      <section
+        class="products-filter"
+        aria-label="Filtros y ordenamiento de productos"
+      >
+        >
+        <div class="search-box">
+          <label for="search-input" class="visually-hidden"
+            >Buscar y ordenar productos</label
+          >
+          <input
+            type="search"
+            id="search-input"
+            placeholder="¿Qué estás buscando hoy?"
+            autocomplete="off"
+          />
+        </div>
+        <div class="filter-box">
+          <label for="category-filter" class="visually-hidden"
+            >Filtrar por categoria</label
+          >
+          <select id="category-filter">
+            <option value="all">Todas las categorias</option>
+            <option value="perifericos">Perifericos</option>
+            <option value="articulos-setup">Articulos para tu setup</option>
+            <option value="equipos">Equipos</option>
+          </select>
+
+          <label for="sort-filter" class="visually-hidden"
+            >Ordenar productos</label
+          >
+          <option value="default">Ordenar por...</option>
+          <option value="price-asc">Precio: Menor a Mayor</option>
+          <option value="price-desc">Precio: Mayor a Menor</option>
+          <option value="name-asc">Nombre: A - Z</option>
+          <option value="name-desc">Nombre: Z - A</option>
+        </div>
+      </section>
+
+      <main>
+        <section aria-label="Catálogo de productos">
+          <div class="catalog-heading">
+            <div>
+              <h2>Nuestros productos</h2>
+            </div>
+            <span class="catalog-note"
+              >Poder tecnologico al alcance de tu mano</span
+            >
+          </div>
+          <div id="products-grid"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
