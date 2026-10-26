@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="app-header">
@@ -55,11 +55,13 @@
           <label for="sort-filter" class="visually-hidden"
             >Ordenar productos</label
           >
-          <option value="default">Ordenar por...</option>
-          <option value="price-asc">Precio: Menor a Mayor</option>
-          <option value="price-desc">Precio: Mayor a Menor</option>
-          <option value="name-asc">Nombre: A - Z</option>
-          <option value="name-desc">Nombre: Z - A</option>
+          <select id="sort-filter">
+            <option value="default">Ordenar por...</option>
+            <option value="price-asc">Precio: Menor a Mayor</option>
+            <option value="price-desc">Precio: Mayor a Menor</option>
+            <option value="name-asc">Nombre: A - Z</option>
+            <option value="name-desc">Nombre: Z - A</option>
+          </select>
         </div>
       </section>
 
@@ -76,6 +78,49 @@
           <div id="products-grid"></div>
         </section>
       </main>
+
+      <aside
+        id="cart-modal"
+        class="cart-drawer"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true"
+        aria-label="Carrito de compras"
+      >
+        <div class="cart-overlay" data-close="cart"></div>
+
+        <div class="cart-content">
+          <header class="cart-header">
+            <h2>Tu Carrito</h2>
+            <button
+              id="cart-close-btn"
+              class="close-btn"
+              type="button"
+              aria-label="Cerrar carrito"
+            >
+              &times;
+            </button>
+          </header>
+
+          <div id="cart-items" class="cart-items-list">
+            <p class="empty-cart-message">Tu carrito está vacío.</p>
+          </div>
+          <footer class="cart-footer">
+            <div class="cart-total-row">
+              <span>Total:</span>
+              <span id="cart-total" aria-live="polite">$0.00</span>
+            </div>
+            <button
+              id="checkout-btn"
+              class="checkout-btn"
+              type="button"
+              disabled
+            >
+              Finalizar Compra
+            </button>
+          </footer>
+        </div>
+      </aside>
     </div>
   </body>
 </html>
