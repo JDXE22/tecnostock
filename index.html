@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tecnostock</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -17,8 +17,7 @@
           class="cart-toggle-btn"
           type="button"
           aria-label="Abrir carrito de compras"
-          aria-expanded="false"
-        >
+          aria-expanded="false">
           <span>Mi carrito</span>
           <span id="cart-count" class="cart-badge" aria-live="polite">0</span>
         </button>
@@ -27,8 +26,7 @@
     <div class="container-main">
       <section
         class="products-filter"
-        aria-label="Filtros y ordenamiento de productos"
-      >
+        aria-label="Filtros y ordenamiento de productos">
         <div class="search-box">
           <label for="search-input" class="visually-hidden"
             >Buscar y ordenar productos</label
@@ -37,8 +35,7 @@
             type="search"
             id="search-input"
             placeholder="¿Qué estás buscando hoy?"
-            autocomplete="off"
-          />
+            autocomplete="off" />
         </div>
         <div class="filter-box">
           <label for="category-filter" class="visually-hidden"
@@ -66,7 +63,10 @@
             <input type="checkbox" id="available-filter" />
             Solo disponibles
           </label>
-          <button id="clear-filters-btn" class="clear-filters-btn" type="button">
+          <button
+            id="clear-filters-btn"
+            class="clear-filters-btn"
+            type="button">
             Limpiar filtros
           </button>
         </div>
@@ -92,8 +92,7 @@
         role="dialog"
         aria-modal="true"
         aria-hidden="true"
-        aria-label="Carrito de compras"
-      >
+        aria-label="Carrito de compras">
         <div class="cart-overlay" data-close="cart"></div>
 
         <div class="cart-content">
@@ -103,20 +102,20 @@
               id="cart-close-btn"
               class="close-btn"
               type="button"
-              aria-label="Cerrar carrito"
-            >
+              aria-label="Cerrar carrito">
               &times;
             </button>
           </header>
 
-          <shopping-cart id="cart-items" class="cart-items-list"></shopping-cart>
+          <shopping-cart
+            id="cart-items"
+            class="cart-items-list"></shopping-cart>
           <footer class="cart-footer">
             <button
               id="checkout-btn"
               class="checkout-btn"
               type="button"
-              disabled
-            >
+              disabled>
               Finalizar Compra
             </button>
           </footer>
@@ -126,13 +125,11 @@
     <dialog
       id="checkout-modal"
       class="checkout-modal"
-      aria-labelledby="checkout-title"
-    >
+      aria-labelledby="checkout-title">
       <button
         type="button"
         class="checkout-close close-btn"
-        aria-label="Cerrar resumen del pedido"
-      >
+        aria-label="Cerrar resumen del pedido">
         &times;
       </button>
       <h2 id="checkout-title">Resumen del pedido</h2>
