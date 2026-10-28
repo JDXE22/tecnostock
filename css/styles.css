@@ -127,36 +127,12 @@ button {
   justify-content: space-between;
   gap: 14px;
   margin: 0 0 45px;
+  padding: 10px 0;
 }
 
 .search-box {
   position: relative;
   flex: 1 2 340px;
-}
-
-.search-box::before {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  width: 14px;
-  height: 14px;
-  transform: translateY(-58%);
-  border: 1.7px solid var(--color-text-muted);
-  border-radius: 50%;
-  content: '';
-  pointer-events: none;
-}
-
-.search-box::after {
-  position: absolute;
-  top: calc(50% + 5px);
-  left: 29px;
-  width: 6px;
-  height: 1.7px;
-  transform: rotate(45deg);
-  background: var(--color-text-muted);
-  content: '';
-  pointer-events: none;
 }
 
 .filter-box {
