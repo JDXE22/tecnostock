@@ -16,9 +16,6 @@ class ProductCard extends HTMLElement {
 
     this.classList.add('product-card');
     this.innerHTML = `
-      <div class="product-image-container">
-        <img class="product-image" />
-      </div>
       <div class="product-info">
         <span class="product-category"></span>
         <h3 class="product-title"></h3>
@@ -30,11 +27,6 @@ class ProductCard extends HTMLElement {
       </div>
     `;
 
-    const image = this.querySelector('.product-image');
-    if (product.image) {
-      image.src = product.image;
-    }
-    image.alt = product.name;
     this.querySelector('.product-category').textContent = product.category;
     this.querySelector('.product-title').textContent = product.name;
     this.querySelector('.product-description').textContent =

@@ -34,7 +34,6 @@ class ShoppingCart extends HTMLElement {
       const article = document.createElement('article');
       article.className = 'cart-item';
       article.innerHTML = `
-        <img class="cart-item-image" />
         <div class="cart-item-details">
           <h3></h3>
           <p></p>
@@ -48,11 +47,6 @@ class ShoppingCart extends HTMLElement {
         <button class="remove-cart-item" type="button">Eliminar</button>
       `;
 
-      const image = article.querySelector('.cart-item-image');
-      if (product.image) {
-        image.src = product.image;
-      }
-      image.alt = product.name;
       article.querySelector('h3').textContent = product.name;
       article.querySelector('p').textContent =
         formatPrice(product.price) + ' c/u';
