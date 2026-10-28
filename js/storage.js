@@ -45,7 +45,7 @@ export function loadCartFromStorage() {
   }
 
   const cart = {};
-  for (const id of savedCart) {
+  for (const id in savedCart) {
     if (isValidItem(id, savedCart[id])) {
       cart[id] = savedCart[id];
     } else {
