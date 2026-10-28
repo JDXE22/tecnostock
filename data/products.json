@@ -2,7 +2,7 @@
   {
     "id": 101,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -29,7 +29,7 @@
   {
     "id": 104,
     "name": "Monitor 24' Pulgadas",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 200900,
     "stock": 2,
     "description": "Monitor LED UHD",
@@ -38,7 +38,7 @@
   {
     "id": 105,
     "name": "Docker Station",
-    "category": "articulos-setup",
+    "category": "Articulos para tu setup",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -47,7 +47,7 @@
   {
     "id": 106,
     "name": "Torre gamer",
-    "category": "equipos",
+    "category": "Equipos",
     "price": 120000,
     "stock": 8,
     "description": "Potente torre gamer para cualquier tipo de actividad",
@@ -56,7 +56,7 @@
   {
     "id": 107,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -65,7 +65,7 @@
   {
     "id": 108,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -74,7 +74,7 @@
   {
     "id": 109,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -83,7 +83,7 @@
   {
     "id": 110,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -92,7 +92,7 @@
   {
     "id": 111,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
@@ -101,7 +101,7 @@
   {
     "id": 112,
     "name": "Teclado mecánico",
-    "category": "perifericos",
+    "category": "Perifericos",
     "price": 189900,
     "stock": 8,
     "description": "Teclado USB para uso diario",
