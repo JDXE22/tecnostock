@@ -82,7 +82,7 @@
               >Poder tecnologico al alcance de tu mano</span
             >
           </div>
-          <div id="products-grid"></div>
+          <product-list id="products-grid"></product-list>
         </section>
       </main>
 
@@ -109,22 +109,8 @@
             </button>
           </header>
 
-          <div id="cart-items" class="cart-items-list">
-            <p class="empty-cart-message">Tu carrito está vacío.</p>
-          </div>
+          <shopping-cart id="cart-items" class="cart-items-list"></shopping-cart>
           <footer class="cart-footer">
-            <div class="cart-total-row">
-              <span>Subtotal:</span>
-              <span id="cart-subtotal" aria-live="polite">$0</span>
-            </div>
-            <div class="cart-total-row">
-              <span>Descuento (10 % desde $300.000):</span>
-              <span id="cart-discount" aria-live="polite">-$0</span>
-            </div>
-            <div class="cart-total-row">
-              <span>Total:</span>
-              <span id="cart-total" aria-live="polite">$0</span>
-            </div>
             <button
               id="checkout-btn"
               class="checkout-btn"
