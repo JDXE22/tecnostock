@@ -29,7 +29,6 @@
         class="products-filter"
         aria-label="Filtros y ordenamiento de productos"
       >
-        >
         <div class="search-box">
           <label for="search-input" class="visually-hidden"
             >Buscar y ordenar productos</label
@@ -62,6 +61,14 @@
             <option value="name-asc">Nombre: A - Z</option>
             <option value="name-desc">Nombre: Z - A</option>
           </select>
+
+          <label class="available-label">
+            <input type="checkbox" id="available-filter" />
+            Solo disponibles
+          </label>
+          <button id="clear-filters-btn" class="clear-filters-btn" type="button">
+            Limpiar filtros
+          </button>
         </div>
       </section>
 
@@ -107,8 +114,16 @@
           </div>
           <footer class="cart-footer">
             <div class="cart-total-row">
+              <span>Subtotal:</span>
+              <span id="cart-subtotal" aria-live="polite">$0</span>
+            </div>
+            <div class="cart-total-row">
+              <span>Descuento (10 % desde $300.000):</span>
+              <span id="cart-discount" aria-live="polite">-$0</span>
+            </div>
+            <div class="cart-total-row">
               <span>Total:</span>
-              <span id="cart-total" aria-live="polite">$0.00</span>
+              <span id="cart-total" aria-live="polite">$0</span>
             </div>
             <button
               id="checkout-btn"
@@ -122,6 +137,34 @@
         </div>
       </aside>
     </div>
+    <dialog
+      id="checkout-modal"
+      class="checkout-modal"
+      aria-labelledby="checkout-title"
+    >
+      <button
+        type="button"
+        class="checkout-close close-btn"
+        aria-label="Cerrar resumen del pedido"
+      >
+        &times;
+      </button>
+      <h2 id="checkout-title">Resumen del pedido</h2>
+
+      <form id="checkout-form">
+        <div id="checkout-summary"></div>
+        <p id="checkout-error" role="alert" hidden></p>
+        <button type="submit" class="checkout-btn">Confirmar pedido</button>
+      </form>
+
+      <div id="checkout-confirmation" hidden>
+        <p id="checkout-message" role="status"></p>
+        <div id="confirmation-summary"></div>
+        <button id="checkout-done-btn" type="button" class="checkout-btn">
+          Aceptar
+        </button>
+      </div>
+    </dialog>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
