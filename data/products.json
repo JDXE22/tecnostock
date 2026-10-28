@@ -10,11 +10,11 @@
   },
   {
     "id": 102,
-    "name": "Audifonos",
+    "name": "Audifonos Bluetooth",
     "category": "Perifericos",
-    "price": 189900,
+    "price": 159900,
     "stock": 10,
-    "description": "Audifonos para uso diario",
+    "description": "Audifonos inalambricos con microfono",
     "active": true
   },
   {
@@ -22,8 +22,8 @@
     "name": "Mouse Inalambrico",
     "category": "Perifericos",
     "price": 99900,
-    "stock": 8,
-    "description": "Mouse para uso diario",
+    "stock": 15,
+    "description": "Mouse ergonomico de bajo consumo",
     "active": true
   },
   {
@@ -32,79 +32,79 @@
     "category": "Perifericos",
     "price": 200900,
     "stock": 2,
-    "description": "Monitor LED UHD",
+    "description": "Monitor Full HD con entrada HDMI",
     "active": true
   },
   {
     "id": 105,
-    "name": "Docker Station",
+    "name": "Docking Station",
     "category": "Articulos para tu setup",
     "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "stock": 6,
+    "description": "Hub USB-C con HDMI y lector de tarjetas",
     "active": true
   },
   {
     "id": 106,
     "name": "Torre gamer",
     "category": "Equipos",
-    "price": 120000,
-    "stock": 8,
-    "description": "Potente torre gamer para cualquier tipo de actividad",
+    "price": 2450000,
+    "stock": 3,
+    "description": "Computador de escritorio para juegos y diseno",
     "active": true
   },
   {
     "id": 107,
-    "name": "Teclado mecánico",
+    "name": "Webcam HD",
     "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "price": 129900,
+    "stock": 12,
+    "description": "Camara 1080p para videollamadas",
     "active": true
   },
   {
     "id": 108,
-    "name": "Teclado mecánico",
-    "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "name": "Soporte para monitor",
+    "category": "Articulos para tu setup",
+    "price": 79900,
+    "stock": 9,
+    "description": "Brazo ajustable de escritorio",
     "active": true
   },
   {
     "id": 109,
-    "name": "Teclado mecánico",
-    "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "name": "Portatil 15 pulgadas",
+    "category": "Equipos",
+    "price": 1899000,
+    "stock": 4,
+    "description": "Portatil ligero para estudio y oficina",
     "active": true
   },
   {
     "id": 110,
-    "name": "Teclado mecánico",
-    "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "name": "Mousepad XL",
+    "category": "Articulos para tu setup",
+    "price": 45900,
+    "stock": 20,
+    "description": "Alfombrilla extendida antideslizante",
     "active": true
   },
   {
     "id": 111,
-    "name": "Teclado mecánico",
+    "name": "Teclado numerico USB",
     "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
+    "price": 59900,
+    "stock": 0,
+    "description": "Teclado numerico compacto, agotado temporalmente",
     "active": true
   },
   {
     "id": 112,
-    "name": "Teclado mecánico",
-    "category": "Perifericos",
-    "price": 189900,
-    "stock": 8,
-    "description": "Teclado USB para uso diario",
-    "active": true
+    "name": "Impresora multifuncional",
+    "category": "Equipos",
+    "price": 520000,
+    "stock": 5,
+    "description": "Impresora con escaner, fuera de catalogo",
+    "active": false
   }
 ]
