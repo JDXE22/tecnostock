@@ -16,7 +16,7 @@ export function filterAndSortProducts(products = [], filters = {}) {
     const matchesSearch =
       title.includes(search) || description.includes(search);
     const matchesCategory =
-      category === "all" || product.category.toLowerCase() === category;
+      category === "all" || product.category.toLowerCase() === category.toLowerCase();
     const matchesAvailable =
       !onlyAvailable || (product.active && product.stock > 0);
     return matchesSearch && matchesCategory && matchesAvailable;
